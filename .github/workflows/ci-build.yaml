@@ -44,3 +44,6 @@ jobs:
         run: nosetests
         env:
           DATABASE_URI: "postgresql://postgres:pgs3cr3t@postgres:5432/testdb"
+      - name: CI Badges
+        uses: GaelGirodon/ci-badges-action@v1.6.0
+
